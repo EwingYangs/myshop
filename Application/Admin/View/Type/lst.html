@@ -1,0 +1,31 @@
+<layout name="layout" />
+
+<!-- 列表 -->
+<div class="list-div" id="listDiv">
+	<table cellpadding="3" cellspacing="1">
+    	<tr>
+            <th>类型名称</th>
+            <th>属性数</th>
+			<th width="120">操作</th>
+        </tr>
+		<?php foreach ($data as $k => $v): ?>            
+			<tr class="tron">
+				<td><?php echo $v['type_name']; ?></td>
+				<td><?php echo $v['type_num']; ?></td>
+		        <td align="center">
+		        	<a href="<?php echo U('Attribute/lst?type_id='.$v['type_id']); ?>" title="属性列表"><img id="edit_icon" src="__PUBLIC__/Admin/Images/icon_edit.gif" border="0" height="16" width="16"></a> 
+		        	<a href="<?php echo U('edit?type_id='.$v['type_id'].'&p='.I('get.p')); ?>" title="编辑"><img id="edit_icon" src="__PUBLIC__/Admin/Images/icon_edit.gif" border="0" height="16" width="16"></a> 
+	                <a href="<?php echo U('delete?type_id='.$v['type_id'].'&p='.I('get.p')); ?>" onclick="return confirm('确定要删除吗？');" title="移除"><img id="drop_icon" src="__PUBLIC__/Admin/Images/icon_drop.gif" border="0" height="16" width="16"></a> 
+		        </td>
+	        </tr>
+        <?php endforeach; ?> 
+		<?php if(preg_match('/\d/', $page)): ?>  
+        <tr><td align="right" nowrap="true" colspan="99" height="30"><?php echo $page; ?></td></tr> 
+        <?php endif; ?> 
+	</table>
+</div>
+
+<script>
+</script>
+
+<script src="__PUBLIC__/Admin/Js/tron.js"></script>

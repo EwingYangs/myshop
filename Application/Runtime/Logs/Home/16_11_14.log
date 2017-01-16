@@ -1,0 +1,2248 @@
+[ 2016-11-14T00:04:53+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046800s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 00:04' AND `promote_end_date` >= '2016-11-14 00:04' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T00:04:53+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.046800s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.047801s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 00:04' AND `promote_end_date` >= '2016-11-14 00:04' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.015600s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T00:04:55+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T00:04:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T00:05:00+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.015600s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 00:05' AND `promote_end_date` >= '2016-11-14 00:05' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T00:05:03+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T00:05:35+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T00:05:37+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T00:05:39+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.002000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 00:05' AND `promote_end_date` >= '2016-11-14 00:05' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.002000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T00:05:40+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T00:07:41+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:31+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:37+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:49+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.015600s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:01' AND `promote_end_date` >= '2016-11-14 16:01' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.015600s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.015600s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:01' AND `promote_end_date` >= '2016-11-14 16:01' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:01' AND `promote_end_date` >= '2016-11-14 16:01' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.015600s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:01' AND `promote_end_date` >= '2016-11-14 16:01' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:50+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.015600s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:01' AND `promote_end_date` >= '2016-11-14 16:01' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:51+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:01' AND `promote_end_date` >= '2016-11-14 16:01' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.015600s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:51+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:01' AND `promote_end_date` >= '2016-11-14 16:01' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:53+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:01:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:02:05+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/18.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.015600s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('18','10','','4','9','6') AND `is_on_sale` = '是' ORDER BY FIELD(id,18,10,,4,9,6)  [ RunTime:0.015600s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4,9,6)' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('18','10','','4','9','6') AND `is_on_sale` = '是' ORDER BY FIELD(id,18,10,,4,9,6) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:02:05+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:02:05+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/18.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:02' AND `promote_end_date` >= '2016-11-14 16:02' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:02:10+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:05:09+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:06:05+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:06:24+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:06:57+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:06:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:07:22+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:07:42+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:08:06+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:16:13+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:16:17+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:23:23+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:24:38+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:24:54+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:24:59+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxDeleteCart.html24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajaxDeleteCart.html24
+
+[ 2016-11-14T16:25:37+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:26:33+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:26:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxDeleteCart24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:ajaxDeleteCart24
+
+[ 2016-11-14T16:27:05+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:27:07+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxDeleteCart/id/24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: DELETE FROM `p39_cart` WHERE `id` = 24 [ RunTime:0.187200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:28:54+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:28:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T16:29:03+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/10.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.015600s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('10','18','','4','9','6') AND `is_on_sale` = '是' ORDER BY FIELD(id,10,18,,4,9,6)  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4,9,6)' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('10','18','','4','9','6') AND `is_on_sale` = '是' ORDER BY FIELD(id,10,18,,4,9,6) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:29:03+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/10.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:29' AND `promote_end_date` >= '2016-11-14 16:29' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.015600s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:29:03+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:29:07+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:29:10+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxDeleteCart/id/26
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.015600s ]
+SQL: DELETE FROM `p39_cart` WHERE `id` = 26 [ RunTime:0.124800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:33:30+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:33:35+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T16:33:44+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:33:49+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:33:57+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:33:58+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.015600s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:33' AND `promote_end_date` >= '2016-11-14 16:33' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:33:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:34:03+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:34:09+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:34:09+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 16:34' AND `promote_end_date` >= '2016-11-14 16:34' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:34:10+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:46:44+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:47:13+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:48:10+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:48:11+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:48:48+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:48:52+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:50:04+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:50:08+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:02+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:03+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:07+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:10+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:12+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:17+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:20+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:24+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:51:30+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:52:07+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:52:08+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T16:52:42+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:52:51+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:52:53+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T16:52:55+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T17:21:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:22:33+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:23:06+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T17:24:51+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:25:30+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:19+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:23+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:41+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:42+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:42+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:42+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T17:26:42+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.015600s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.015600s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.015600s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:43+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T17:26:45+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/10.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('10','18','','4','9','6') AND `is_on_sale` = '是' ORDER BY FIELD(id,10,18,,4,9,6)  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4,9,6)' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('10','18','','4','9','6') AND `is_on_sale` = '是' ORDER BY FIELD(id,10,18,,4,9,6) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:45+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/10.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:26' AND `promote_end_date` >= '2016-11-14 17:26' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:45+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:51+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:26:58+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T17:27:03+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:27:20+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:27:24+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:34:50+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:34:54+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:35:04+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:35:24+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:45:24+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:45:29+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:45:45+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:48:23+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:48:23+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:48' AND `promote_end_date` >= '2016-11-14 17:48' AND `id` = '18' LIMIT 1   [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:48' AND `promote_end_date` >= '2016-11-14 17:48' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:48:25+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:48:37+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:49:05+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:50:31+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:50:38+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:51:15+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:51:21+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:52:31+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:54:31+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:54:35+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:54:46+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:54:51+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:55:06+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:55:06+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:55' AND `promote_end_date` >= '2016-11-14 17:55' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.000000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:55' AND `promote_end_date` >= '2016-11-14 17:55' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:55:08+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:55:14+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:55:30+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:55:36+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:55:41+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T17:56:03+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:56:51+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:57:00+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:57:06+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:57:08+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:57:22+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-14T17:57:29+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:57:35+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:57:35+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.002000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:57' AND `promote_end_date` >= '2016-11-14 17:57' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.001000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.001000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:57' AND `promote_end_date` >= '2016-11-14 17:57' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:57:36+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.002001s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:57' AND `promote_end_date` >= '2016-11-14 17:57' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.001000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.001000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:57' AND `promote_end_date` >= '2016-11-14 17:57' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T17:57:36+08:00 ] 127.0.0.1 /index.php/Home/Cart/ajaxGetCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\Xampp\htdocs\itcast\Zend\yjy\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.002000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 18 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:57' AND `promote_end_date` >= '2016-11-14 17:57' AND `id` = '18' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.002000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '18' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b on a.attr_id=b.attr_id  WHERE a.id IN ('3','6','10')  [ RunTime:0.001000s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 17:57' AND `promote_end_date` >= '2016-11-14 17:57' AND `id` = '10' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T17:57:37+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:57:41+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T17:57:44+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:25:45+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:27:39+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:27:42+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:27:44+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:28:41+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:28:52+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:29:04+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:29:06+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:29:53+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:29:58+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:29:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:30:00+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:30:01+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:30:02+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:30:18+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:30:19+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:30:52+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T18:33:27+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T18:33:39+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:35:05+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:35:16+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.001000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('5','10','18','','4','9') AND `is_on_sale` = '是' ORDER BY FIELD(id,5,10,18,,4,9)  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4,9)' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('5','10','18','','4','9') AND `is_on_sale` = '是' ORDER BY FIELD(id,5,10,18,,4,9) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:35:16+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.001000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:35' AND `promote_end_date` >= '2016-11-14 23:35' AND `id` = '5' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '5' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:35:16+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:35:43+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:35:46+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/19.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.004000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('19','5','10','18','','4') AND `is_on_sale` = '是' ORDER BY FIELD(id,19,5,10,18,,4)  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4)' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('19','5','10','18','','4') AND `is_on_sale` = '是' ORDER BY FIELD(id,19,5,10,18,,4) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:35:46+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T23:35:46+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/19.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:35' AND `promote_end_date` >= '2016-11-14 23:35' AND `id` = '19' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '19' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:36:38+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:36:44+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,)  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:36:44+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:36' AND `promote_end_date` >= '2016-11-14 23:36' AND `id` = '2' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.002000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '2' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:36:44+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:37:07+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:37' AND `promote_end_date` >= '2016-11-14 23:37' AND `id` = '2' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.002000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '2' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:37:07+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:37:07+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.004000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,)  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:38:16+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.004000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,)  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,) 
+
+[ 2016-11-14T23:38:16+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.004001s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:38' AND `promote_end_date` >= '2016-11-14 23:38' AND `id` = '2' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.003000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '2' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:38:16+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:38:59+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.004000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:38' AND `promote_end_date` >= '2016-11-14 23:38' AND `id` = '2' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.003000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '2' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:38:59+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:38:59+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003001s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,)  [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','19','5','10','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,19,5,10,18,) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:41:41+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:41:42+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:01+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:42:06+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/10.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:42' AND `promote_end_date` >= '2016-11-14 23:42' AND `id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.015600s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '10' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 10 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:06+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/10.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.004000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('10','2','19','5','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,10,2,19,5,18,)  [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('10','2','19','5','18','') AND `is_on_sale` = '是' ORDER BY FIELD(id,10,2,19,5,18,) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:42:06+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:10+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:14+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('6','10','2','19','5','18') AND `is_on_sale` = '是' ORDER BY FIELD(id,6,10,2,19,5,18)  [ RunTime:0.031200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:14+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:42' AND `promote_end_date` >= '2016-11-14 23:42' AND `id` = '6' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '6' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:14+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:27+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:30+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('9','6','10','2','19','5') AND `is_on_sale` = '是' ORDER BY FIELD(id,9,6,10,2,19,5)  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:30+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:42' AND `promote_end_date` >= '2016-11-14 23:42' AND `id` = '9' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '9' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 9 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-11-14T23:42:30+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:37+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:39+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:42:39+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.005000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','9','6','10','19','5') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,9,6,10,19,5)  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:42:39+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.000000s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:42' AND `promote_end_date` >= '2016-11-14 23:42' AND `id` = '2' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.000000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '2' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:45:26+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:45:26+08:00 ] 127.0.0.1 /index.php/Home/Index/ajaxGetMemberPrice/goods_id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003001s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `promote_price` > 0 AND `promote_start_date` <= '2016-11-14 23:45' AND `promote_end_date` >= '2016-11-14 23:45' AND `id` = '2' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.003000s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `level_id` = '3' AND `goods_id` = '2' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T23:45:26+08:00 ] 127.0.0.1 /index.php/Home/Index/displayHistory/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.003000s ]
+SQL: SELECT `mid_logo`,`id`,`goods_name` FROM `p39_goods` WHERE `id` IN ('2','9','6','10','19','5') AND `is_on_sale` = '是' ORDER BY FIELD(id,2,9,6,10,19,5)  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:45:27+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:48:22+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:48:30+08:00 ] 127.0.0.1 /index.php/Home/Search/cat_search/id/2.html
+ERR: Think\Model:getSearchInfo方法不存在！
+
+[ 2016-11-14T23:48:39+08:00 ] 127.0.0.1 /index.php/Home/Search/cat_search/id/2.html
+ERR: XML标签语法错误
+
+[ 2016-11-14T23:48:53+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:50:11+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:50:14+08:00 ] 127.0.0.1 /index.php/Home/Search/cat_search/id/1.html
+ERR: XML标签语法错误
+
+[ 2016-11-14T23:50:16+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T23:50:17+08:00 ] 127.0.0.1 /index.php/Home/Search/cat_search/id/2.html
+ERR: XML标签语法错误
+
+[ 2016-11-14T23:51:13+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:52:00+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-14T23:52:11+08:00 ] 127.0.0.1 /index.php/Home/Member/ajaxConfirm.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

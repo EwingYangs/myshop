@@ -1,0 +1,450 @@
+/*大背景  B*/
+.bg {
+    height: 640px;
+    width: 100%;
+}
+.bg a {
+    background: url("../images/bg.png") center;
+    display: block;
+    height: 640px;
+}
+/*大背景  E*/
+/*轮播图  B*/
+.shop {
+    padding-top: 12px;
+    position: relative;
+}
+.shop .shop-left .slider-box {
+    width: 730px;
+    height: 454px;
+    overflow: hidden;
+}
+.slider-box ul {
+    position: relative;
+    height: 454px;
+    width: 6500px;
+}
+.slider-box ul li {
+    float: left;
+}
+.shop .shop-left {
+    width: 730px;
+    height: 454px;
+    position: relative;
+    margin-left: 220px;
+}
+.shop .shop-left:hover .arrow {
+    display: block;
+}
+
+.shop .shop-right {
+    width: 250px;
+    height: 454px;
+}
+.shop .number {
+    position: absolute;
+    left: 50%;
+    margin-left: -64px;
+    bottom: 8px;
+}
+.shop .number li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 4px;
+    background-color: #333333;
+}
+.shop .number li.current {
+    background-color: #C81623;
+}
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: none;
+    margin-top: -32px;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+.arrow-left,
+.arrow-right
+{
+    position: absolute;
+    cursor: pointer;
+    width: 32px;
+    height: 64px;
+    font-size: 22px;
+    font-family: "simsun";
+    text-align: center;
+    line-height: 64px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .2);
+}
+.arrow-right {
+    right: 0;
+}
+.arrow-right1 {
+    right: 210px;
+}
+.s-b-right .arrow {
+    top: 43%;
+}
+
+/*轮播图  E*/
+
+/*轮播图右侧部分   B*/
+.s-r-mess {
+    width: 248px;
+    height: 163px;
+    border: 1px solid #E4E4E4;
+}
+.s-r-mess .s-r-mess-t {
+    height: 32px;
+    line-height: 32px;
+    font-family: "microsoft yahei";
+    padding: 0 15px;
+    border-bottom: 1px dotted #E4E4E4;
+}
+.s-r-mess .s-r-mess-t h3 {
+    font-size: 16px;
+    float: left;
+    color: #666;
+}
+.s-r-mess .s-r-mess-t span {
+    float: right;
+    font-size: 12px;
+    font-family: "consolas";
+}
+.s-r-mess .s-r-mess-b {
+    padding: 5px 15px;
+}
+.s-r-mess .s-r-mess-b p {
+    height: 24px;
+    line-height: 24px;
+}
+.s-r-mess .s-r-mess-b p span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.s-r-service {
+    width: 248px;
+    height: 208px;
+    border: 1px solid #E4E4E4;
+    border-top: 0 none;
+    overflow: hidden;
+}
+.s-r-service ul {
+    width: 252px;
+}
+.s-r-service ul li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E4E4E4;
+    float: left;
+    border-top: 0 none;
+    margin-left: -1px;
+}
+.s-r-service ul li .s-r-s-a {
+    display: block;
+    padding: 12px 18px 0;
+}
+.s-r-service ul li i {
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.s-r-service ul li i.s-r-service-1 {
+    background: url("../images/spriteicon.png") 0 0;
+}
+.s-r-service ul li i.s-r-service-2 {
+    background: url("../images/spriteicon.png") 0 -26px;
+}
+.s-r-service ul li i.s-r-service-3 {
+    background: url("../images/spriteicon.png") 0 -51px;
+}
+.s-r-service ul li i.s-r-service-4 {
+    background: url("../images/spriteicon.png") 0 -75px;
+}
+.s-r-service ul li i.s-r-service-5 {
+    background: url("../images/spriteicon.png") 0 -101px;
+}
+.s-r-service ul li i.s-r-service-6 {
+    background: url("../images/spriteicon.png") 0 -126px;
+}
+.s-r-service ul li i.s-r-service-7 {
+    background: url("../images/spriteicon.png") 0 -151px;
+}
+.s-r-service ul li i.s-r-service-8 {
+    background: url("../images/spriteicon.png") 0 -175px;
+}
+.s-r-service ul li i.s-r-service-9 {
+    background: url("../images/spriteicon.png") 0 -200px;
+}
+.s-r-service ul li i.s-r-service-10 {
+    background: url("../images/spriteicon.png") 0 -225px;
+}
+.s-r-service ul li i.s-r-service-11 {
+    background: url("../images/spriteicon.png") 0 -250px;
+}
+.s-r-service ul li i.s-r-service-12 {
+    background: url("../images/spriteicon.png") 0 -275px;
+}
+.s-r-service ul p a {
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+.shop-right .s-r-ad {
+    margin-top: 5px;
+}
+/*轮播图右侧部分   E*/
+
+/*轮播图下方   B*/
+.shop-bottom {
+    position: relative;
+    height: 164px;
+    margin-top: 465px;
+    padding-bottom: 16px;
+}
+.shop-bottom .s-b-right {
+    width: 1000px;
+    float: left;
+}
+.shop-bottom .s-b-right:hover .arrow {
+    display: block;
+}
+.shop-bottom .s-b-right li {
+    height: 164px;
+    width: 249px;
+    float: left;
+}
+.shop-bottom .s-b-right img.s-b-right-i {
+    width: 249px;
+}
+.shop-bottom .s-b-right li {
+    margin-right: 1px;
+}
+/*轮播图下方   E*/
+
+/*guess  B*/
+.content .guess {
+    height: 40px;
+    line-height: 40px;
+}
+.content .guess-t-l {
+    width: 310px;
+    position: relative;
+}
+.content .guess-t-l i {
+    position: absolute;
+    float: right;
+    width: 220px;
+    height: 16px;
+    top: 13px;
+    right: 0px;
+    background: url("../images/guess-you-like.png") 0 -100px;
+}
+.content .guess h3,
+.content .quality-life h3
+{
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    color: #333;
+}
+.content .guess-t-r {
+    width: 65px;
+}
+.content .guess-t-r:hover i {
+    background: url("../images/guess-you-like.png") -351px -29px;
+}
+.content .guess-t-r span {
+    font-family: "microsoft yahei";
+    cursor: pointer;
+}
+.content .guess-t-r span:hover {
+    color: #C81623;
+}
+.content .guess-t-r i {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: url("../images/guess-you-like.png") -351px -5px;
+}
+.guess .guess-b {
+    height: 213px;
+    width: 1210px;
+    border: 1px solid #EDEDED;
+    padding: 10px 0;
+}
+.guess .guess-h {
+    width: 1210px;
+    height: 213px;
+}
+.guess-b .g-b-one {
+    padding: 0 20px;
+}
+.guess-b .g-b-one-b {
+    width: 168px;
+    height: 62px;
+    margin-top: 20px;
+    padding-left: 25px;
+    border-right: 1px solid #ededed;
+    line-height: 18px;
+}
+.guess-b .g-b-one-b span {
+    display: block;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #C32F1A;
+}
+.guess-b .g-b .g-b-one-b {
+    border-right: 0 none;
+}
+.guess-b img {
+    margin-left: 10px;
+}
+/*guess  E*/
+
+/*京东·品质生活  B*/
+.content .quality-life {
+    margin-top: 250px;
+    height: 441px;
+    width: 1211px;
+}
+.content .quality-life h3 {
+    height: 34px;
+    line-height: 34px;
+}
+.content .quality-life .q-l-content {
+    height: 407px;
+    background-color: #F7F7F7;
+    border: 1px solid #EDEDED;
+}
+.q-l-content .q-l-content-one {
+    width: 405px;
+    height: 407px;
+    border-right: 1px solid #EDEDED;
+}
+.q-l-content .q-l-content-two {
+    width: 228px;
+    background-color: #fff;
+    height: 407px;
+}
+.q-l-content .q-l-content-three {
+    width: 405px;
+    height: 407px;
+    border-right: 1px solid #EDEDED;
+    border-left: 1px solid #EDEDED;
+}
+.q-l-content .q-l-content-one-m,
+.q-l-content .q-l-content-two-m
+{
+    height: 205px;
+}
+.q-l-content .q-l-content-one-m img {
+    width: 405px;
+}
+.q-l-content .q-l-content-one-m p {
+    top: -135px;
+    left: 40px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+.q-l-content .q-l-content-one-b p {
+    top: -120px;
+    left: 40px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+.q-l-content .q-l-content-two-m p {
+    top: -140px;
+    left: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+.q-l-content .q-l-content-two-b p {
+    top: -120px;
+    left: 30px;
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+.q-l-content .qLife-t {
+    margin: 0 20px;
+    border-bottom: 1px dashed #E0E0E0;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+}
+.q-l-content .qLifep1 {
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-family: "microsoft yahei";
+    font-weight: 700;
+}
+.q-l-content .qLifep2 {
+    font-size: 12px;
+    font-family: "microsoft yahei";
+    font-weight: 500;
+}
+.q-l-content .qLifep3 {
+    font-size: 12px;
+    font-family: "microsoft yahei";
+    font-weight: 500;
+    color: #C81623;
+}
+.q-l-content .q-l-content-one-b {
+    height: 158px;
+    border-top: 1px solid #EDEDED;
+}
+.q-l-content .q-l-content-two-b {
+    border-top: 1px solid #EDEDED;
+}
+.q-l-content .q-l-content-one-b .b-left {
+    width: 201px;
+    height: 160px;
+    border-right: 1px solid #EDEDED;
+}
+.q-l-content .q-l-content-four {
+    width: 152px;
+    height: 387px;
+    padding: 10px 8px;
+    background-color: #fff;
+}
+.q-l-content .q-l-content-four ul {
+    width: 165px;
+    height: 342px;
+}
+.q-l-content .q-l-content-four ul li {
+    float: left;
+    border: 1px dashed #ededed;
+    margin-top: -1px;
+    margin-left: -1px;
+    padding: 0 1px;
+
+    width: 76px;
+    height: 56px;
+}
+.four-box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*京东·品质生活  E*/

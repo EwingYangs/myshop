@@ -1,0 +1,94 @@
+<layout name="layout" />
+
+<!-- 商品列表 -->
+<form method="post" action="__SELF__" name="listForm">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+               <?php foreach($_gaData as $k=>$v){?>
+               	<th><?php echo $k; ?></th>
+               <?php }?>
+               	<th>库存</th>
+                <th>操作</th>
+            </tr>
+            <?php if($goods_number){
+            foreach($goods_number as $k0=>$v0){
+			 $goods_attr_ids = explode(',',$v0['goods_attr_id']);
+            ?>
+            <tr id="tr_obj">
+            	<?php
+            	$count = count($_gaData);
+            	 foreach($_gaData as $k2=>$v2){
+            	
+            	 ?>
+            		<td>
+            			<select name="goods_attr_id[]">
+            				<option value=''>请选择...</option>
+            				<?php foreach($v2 as $k3=>$v3){?>
+            					<option value="<?php echo $v3['id']?>" <?php if(in_array($v3['id'],$goods_attr_ids)){echo 'selected=selected';}?>>
+            						<?php echo $v3['attr_value']?>
+            					</option>
+            				<?php }?>
+            			</select>
+            		</td>
+            	<?php }?>
+            	<td width="180">
+               <input type="text" size="22" name="goods_number[]" value="<?php echo $v0['goods_number']?>">
+            	</td>
+            	<td align="center">
+                <a href="javascript:"><img onclick="add(this)" class="img_add" <?php echo $k0 == 0? 'src="__PUBLIC__/Admin/Images/btn_maximize.gif"' : 'src="__PUBLIC__/Admin/Images/btn_minimize.gif"'?> width="20" height="20" border="0" /></a>
+            	</td>
+            </tr>
+            <?php }?>
+			<?php }else{?>
+            <tr id="tr_obj">
+            	<?php
+            	$count = count($_gaData);
+            	 foreach($_gaData as $k1=>$v2){?>
+            		<td>
+            			<select name="goods_attr_id[]">
+            				<option value=''>请选择...</option>
+            				<?php foreach($v2 as $k3=>$v3){?>
+            					<option value="<?php echo $v3['id']?>">
+            						<?php echo $v3['attr_value']?>
+            					</option>
+            				<?php }?>
+            			</select>
+            		</td>
+            	<?php }?>
+            	<td width="180">
+               <input type="text" size="22" name="goods_number[]">
+            	</td>
+            	<td align="center">
+                <a href="javascript:"><img onclick="add(this)" class="img_add" src="__PUBLIC__/Admin/Images/btn_maximize.gif" width="20" height="20" border="0" /></a>
+            	</td>
+            </tr>
+            <?php }?>
+      		<tr>
+      			<td align="center" colspan="<?php echo $count+2?>"><input type="submit" value="提交">&nbsp;<input type="reset" value="重置"></td>
+      		</tr>
+        </table>
+
+    </div>
+</form>
+
+
+<script type="text/javascript" src="__PUBLIC__/Admin/js/tron.js">
+</script>
+	
+<script>
+
+function add(img_obj){
+	var tr = $(img_obj).parent().parent().parent();
+	if($(img_obj).attr('src') == '__PUBLIC__/Admin/Images/btn_maximize.gif'){
+		var newTr = tr.clone();
+		newTr.find('img').attr('src','__PUBLIC__/Admin/Images/btn_minimize.gif');
+		tr.after(newTr);
+	}else{
+		tr.remove();
+	}
+}
+</script>
+
+
+

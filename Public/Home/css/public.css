@@ -1,0 +1,461 @@
+/*css ��ʼ�� */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "����";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+/*��ֹ�ֶ��޸Ĵ�С*/
+textarea {
+    resize: none;
+}
+/*ȥ��ͼƬ�ײ�Ĭ�Ͽհ׷�϶*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+/*�ϲ�������*/
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*unitedCode��д���������д��*/
+    color: #666;
+    background: #fff;
+}
+/*�������*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*������ɫ��*/
+.col-red {
+    color: #C81623 !important;
+}
+
+/*������*/
+.w {
+    /*����*/
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+.pr {
+    position: relative;
+}
+.pa {
+    position: absolute;
+}
+
+.hide {
+    display: none;
+}
+
+/*css��ʼ�����*/
+
+/*����  B*/
+.top {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+.shortcut .address {
+    padding: 0 29px 0 10px;
+    position: relative;
+}
+.sanjiao {
+    overflow: hidden;
+    position: absolute;
+    height: 6px;
+    width: 12px;
+    right: 10px;
+    top: 12px;
+}
+.sanjiao s {
+    position: absolute;
+    font-size: 12px;
+    line-height: 12px;
+    height: 12px;
+    width: 12px;
+    top: -5px;
+}
+.shortcut .shortcut-right li {
+    float: left;
+    position: relative;
+    padding: 0 11px 0 10px;
+}
+.shortcut .shortcut-right li.li-line {
+    border-left:1px solid #ddd;
+    height: 12px;
+    margin-top: 9px;
+    padding: 0;
+}
+.shortcut .shortcut-right li.li-sanjiao {
+    padding-right: 29px;
+}
+.shortcut .shortcut-right li.phone {
+    padding-left: 25px;
+}
+.shortcut .shortcut-right li.phone span {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 20px;
+    background: url("../images/jd2015img.png");
+}
+.shortcut .shortcut-right li.phone:hover span {
+    background: url("../images/jd2015img.png") 0 -25px;
+}
+
+    /*����  E*/
+/*bannerBar  B*/
+.bannerBar {
+    background-color: #F02616;
+}
+.bannerBar .banner .close {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background: url("../images/jd2015.png");
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.bannerBar .banner .close:hover {
+    background: url("../images/jd2015.png") bottom left;
+}
+/*bannerBar  E*/
+/*searchBar  B*/
+.searchBar {
+    padding-top: 25px;
+    padding-bottom: 11px;
+}
+.searchBar h1 {
+    width: 270px;
+    height: 60px;
+}
+.searchBar .Logo a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    background: url("../images/logo.png");
+    text-indent: -9999px;
+}
+.searchBar .searchInput input {
+    height: 32px;
+    width: 450px;
+    border: 2px solid #B61D1D;
+    border-right: 0 none;
+    margin-left: 92px;
+    padding-left: 4px;
+    float: left;
+}
+.searchBar .searchInput button {
+    height: 36px;
+    width: 82px;
+    float: left;
+    background-color: #B61D1D;
+    color: #fff;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+}
+.searchBar .car {
+    margin-left: 104px;
+    width: 96px;
+    height: 34px;
+    position: relative;
+    padding-left: 43px;
+    background-color: #F9F9F9;
+    border: 1px solid #DFDFDF;
+}
+.searchBar .car .buyCar {
+    width: 18px;
+    height: 15px;
+    background: url("../images/jd2015img.png") 0 -58px;
+    position: absolute;
+    top: 9px;
+    left: 18px;
+}
+.searchBar .car a {
+    line-height: 34px;
+}
+.searchBar .car i {
+    font-size: 16px;
+    font-family: "consolas";
+    position: absolute;
+    line-height: 34px;
+    right: 9px;
+}
+.searchBar .car .count {
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    top: -4px;
+    background-color: #C81623;
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+}
+.searchBar .hotword {
+    margin-left: 92px;
+    line-height: 28px;
+}
+.searchBar .hotword a {
+    margin-right: 6px;
+    float: left;
+}
+/*searchBar  E*/
+/*nav   B */
+.nav {
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.nav .nav-left {
+    position: relative;
+    z-index: 1;
+    width: 210px;
+    height: 44px;
+    background-color: #B1191A;
+}
+.nav .nav-left .nav-l-t {
+    width: 210px;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 10px;
+}
+.nav .nav-left .nav-l-t a {
+    display: block;
+    height: 44px;
+    width: 210px;
+    color: #fff;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+}
+.nav .nav-left .nav-l-b {
+    width: 209px;
+    height: 466px;
+    border-left: 1px solid #C81623;
+    background-color: #C81623;
+    margin-top: 2px;
+}
+.nav .nav-left .nav-l-b li {
+    height: 31px;
+    line-height: 31px;
+    padding-left: 10px;
+    padding-right: 12px;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    color: #fff;
+}
+.nav .nav-left .nav-l-b li:hover {
+    background-color: #fff;
+}
+.nav .nav-left .nav-l-b li a {
+    color: #fff;
+}
+.nav .nav-left .nav-l-b li:hover a {
+    color: #C81623;
+}
+.nav .nav-left .nav-l-b li span {
+    font-family: "consolas";
+    font-size: 12px;
+    float: right;
+}
+.nav .nav-middle ul li {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+}
+.nav .nav-middle ul li:hover {
+    background-color: #FFE975;
+}
+.nav .nav-middle li a {
+    padding: 0 16px;
+    color: #333;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+}
+.nav .nav-middle li a:hover {
+    color: #C81623;
+}
+.nav .nav-right {
+    margin-top: -85px;
+}
+.nav .nav-right a {
+    display: block;
+    width: 254px;
+    height: 129px;
+    background: url("../images/nav-right.png");
+}
+/*nav   E */
+
+/*slogen   B*/
+.slogen {
+    height: 54px;
+    background-color: #F5F5F5;
+    position: relative;
+    padding: 20px 0;
+}
+.slogen span {
+    display: block;
+    width: 220px;
+    height: 54px;
+    position: absolute;
+    left: 50%;
+}
+.slogen .slogen1 {
+    background: url("../images/service_items_1.png");
+    margin-left: -600px;
+ }
+.slogen .slogen2 {
+    background: url("../images/service_items_2.png");
+    margin-left: -300px;
+}
+.slogen .slogen3 {
+    background: url("../images/service_items_3.png");
+    margin-left: 20px;
+}
+.slogen .slogen4 {
+    background: url("../images/service_items_4.png");
+    margin-left: 320px;
+}
+/*slogen   E*/
+/*service   B*/
+.service {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    width: 1170px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.service dl {
+    float: left;
+    width: 199px;
+}
+.service dl.last {
+    width: 164px;
+}
+.service dt,
+.service .map h3
+{
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+}
+.service dd,
+.service .map p {
+    font-family: "microsoft yahei";
+}
+.service dd a {
+    height: 18px;
+    line-height: 18px;
+}
+.service .map {
+    width: 183px;
+    height: 169px;
+    padding-left: 20px;
+    background: url("../images/map.png") bottom left;
+}
+.service .map p {
+    line-height: 18px;
+}
+.service .map p.p2 {
+    float: right;
+}
+/*service   E*/
+/*info  B */
+.links {
+    text-align: center;
+    margin-top: 30px;
+}
+.links a {
+    margin: 0 10px;
+}
+.info p {
+    margin-top: 20px;
+    text-align: center;
+}
+.auth {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.auth a {
+    margin-right: 15px;
+}
+/*info  E */

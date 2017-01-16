@@ -1,0 +1,6 @@
+[ 2016-11-07T00:27:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/%7B:U('$v1['controller_name'].'/'.$v1['action_name']')%7D
+ERR: 非法操作:{:U('$v1['controller_name'].'
+
+[ 2016-11-07T00:29:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/%7B:U($v1['controller_name'].'/'.$v1['action_name']);%20%7D
+ERR: 非法操作:{:U($v1['controller_name'].'
+

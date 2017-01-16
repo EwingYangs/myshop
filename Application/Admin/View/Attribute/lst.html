@@ -1,0 +1,78 @@
+<layout name="layout" />
+
+<!-- 列表 -->
+<div class="form-div">
+  <form action="__ACTION__" name="searchForm" method="get">
+    <img id="search_icon" src="__PUBLIC__/Admin/Images/icon_search.gif" width="26" height="22" border="0" alt="SEARCH">
+    按商品类型显示：
+    <select name="type_id" onchange="this.parentNode.submit();">
+        <?php foreach($type as $v){?>
+            <option value="<?php echo $v['type_id']?>" <?php if($v['type_id'] == I('get.type_id')){echo 'selected=selected';}?>><?php echo $v['type_name']?>
+            </option>
+        <?php }?>    
+    </select>
+  </form>
+</div>
+
+<div class="list-div" id="listDiv">
+
+  <table cellpadding="3" cellspacing="1">
+    <tbody>
+		<tr>
+      <th><input onclick="selectAll(this)" type="checkbox">编号 </th>
+			<th>属性名称</th>
+			<th>商品类型</th>
+			<th>属性是否可选</th>
+			<th>属性值的录入方式</th>
+			<th>可选值列表</th>
+			<th>操作</th>
+		</tr>
+      <?php foreach($data as $key=>$v){?>
+        <tr class="tron">
+			<td nowrap="true" valign="top"><span><input value="<?php echo $v['attr_id']?>" name="checkboxes[]" type="checkbox" onclick="show_delete(this.value)"><?php echo $key+1?></span></td>
+			<td class="first-cell" nowrap="true" valign="top"><span onclick="listTable.edit(this, 'edit_attr_name', 1)"><?php echo $v['attr_name']?></span></td>
+			<td nowrap="true" valign="top">
+        <span><?php echo $v['type_name']?></span>
+      </td>
+     <td nowrap="true" valign="top">
+      <span>
+          <?php 
+                if($v['attr_type'] == 0){
+                  echo '唯一';
+                }else if($v['attr_type'] == 1){
+                  echo '单选';
+                }
+          ?>
+      </span>
+    </td>
+	<td nowrap="true" valign="top">
+      <span>
+          <?php 
+                if($v['attr_input_type'] == 0){
+                  echo '手工录入';
+                }else if($v['attr_input_type'] == 1){
+                  echo '从列表中选择';
+                }
+          ?>
+      </span>
+    </td>
+			<td valign="top"><span><?php echo $v['attr_value'];?></span></td>
+			
+			<td align="center" nowrap="true" valign="top">
+				<a href="<?php echo U('edit?attr_id='.$v['attr_id'].'&type_id='.I('get.type_id')); ?>" title="编辑"><img id="edit_icon" src="__PUBLIC__/Admin/Images/icon_edit.gif" border="0" height="16" width="16"></a>
+				<a href="<?php echo U('delete?attr_id='.$v['attr_id'].'&type_id='.I('get.type_id')); ?>" onclick="javascript:return window.confirm('你确定要删除吗？')" title="移除"><img id="drop_icon" src="__PUBLIC__/Admin/Images/icon_drop.gif" border="0" height="16" width="16"></a>
+			</td>
+      <?php }?>
+		</tr>
+		<?php if(preg_match('/\d/', $page)): ?>  
+        <tr><td align="right" nowrap="true" colspan="99" height="30"><?php echo $page; ?></td></tr> 
+        <?php endif; ?> 
+      </tbody>
+    
+      </table>
+</div>
+
+<script>
+</script>
+
+<script src="__PUBLIC__/Admin/Js/tron.js"></script>
